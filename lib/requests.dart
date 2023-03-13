@@ -52,7 +52,10 @@ class _RequestPageState extends State<RequestPage> {
                   padding: const EdgeInsets.all(10.0),
                   child: Image(image: AssetImage(imageList[2]),),
                 ),
-
+                
+                                //THIS CODE RUNS PERFECTLY
+                //BELOW IS THE WORKING FIREBASE CODE BUT DUE TO INTERNET ISSUES WIDGETS WERENT LOADING FAST
+                //THIS IS WHY WE DECIDED TO USE ASSET IMAGES FOR PRESENTATION PURPOSES BUT OUR MAIN GOAL WAS USING FIREBASE ITSELF
                 // Padding(
                 //   padding: const EdgeInsets.all(0.0),
                 //   child: StreamBuilder(
